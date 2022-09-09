@@ -1,0 +1,90 @@
+    1  ls
+    2  finger jeremiah
+    3  whois jeremiah
+    4  who jeremiah
+    5  ls -al
+    6  passwd
+    7  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    8  ls -latr
+    9  head amazon_reviews_us_Books_v1_02.tsv.gz 
+   10  ls -altr
+   11  head amazon_reviews_us_Books_v1_02.tsv.gz 
+   12  PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+   13  unzip amazon
+   14  head amazon_reviews_us_Books_v1_02.tsv.gz 
+   15  PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+   16  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+   17  ls -altr
+   18  head amazon_reviews_us_Books_v1_02.tsv.gz
+   19  PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+   20  ls -latr
+   21  head amazon_reviews_us_Books_v1_02.tsv.gz
+   22  \\
+   23  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+   24  head amazon_reviews_us_Books_v1_02.tsv.gz
+   25  gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+   26  j
+   27  head amazon_reviews_us_Books_v1_02.tsv
+   28  grep -i "verified" amazon_reviews_us_Books_v1_02.tsv
+   29  wc amazon_reviews_us_Books_v1_02.tsv
+   30  k
+   31  grep "\tY\t" amazon_reviews_us_Books_v1_02.tsv
+   32  k
+   33  grep "\tY\t" amazon_reviews_us_Books_v1_02.tsv
+   34  k
+   35  head amazon_reviews_us_Books_v1_02.tsv
+   36  wc "\tY\t" amazon_reviews_us_Books_v1_02.tsv
+   37  k
+   38  wc "\tY\t"
+   39  head amazon_reviews_us_Books_v1_02.tsv
+   40  wc "\tY\t"
+   41  wc "\tY\t" amazon_reviews_us_Books_v1_02.tsv
+   42  grep "verified" amazon_reviews_us_Books_v1_02.tsv
+   43  wc "\tY\t" amazon_reviews_us_Books_v1_02.tsv
+   44  grep "\tY\t" am
+   45  k
+   46  head counts.txt
+   47  gunzip counts.txt
+   48  head amazon_reviews_us_Books_v1_02.tsv
+   49  grep '       N       Y       '  amazon_reviews_us_Books_v1_02.tsv
+   50  grep '       Y       Y       '  amazon_reviews_us_Books_v1_02.tsv
+   51  grep '       N       Y       '  amazon_reviews_us_Books_v1_02.tsv | wc
+   52  grep ' N       Y       '  amazon_reviews_us_Books_v1_02.tsv | wc
+   53  grep 'N       Y'  amazon_reviews_us_Books_v1_02.tsv | wc
+   54  grep 'Y       Y'  amazon_reviews_us_Books_v1_02.tsv | wc
+   55  grep 'Y'  amazon_reviews_us_Books_v1_02.tsv | wc
+   56  k
+   57  grep 'N       N' amazon_reviews_us_Books_v1_02.tsv | wc
+   58  egrep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   59  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   60  mkdir "folder 1
+
+
+mkdir "folder 1"
+
+k
+   61  mkdir "folder1"
+   62  ls > counts.txt
+   63   grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   64   grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   65  cat counts.txt 
+   66  cat folder1/
+   67  cat counts.txt 
+   68  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   69  ls > counts.txt
+   70  grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   71  ls > counts.txt
+   72  cat counts.txt
+   73  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+   74  cat counts.txt
+   75  grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+   76  cat counts.txt
+   77  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+   78  cat counts.txt
+   79  grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc > counting.txt
+   80  cat c* > count.txt
+   81  cat count.txt
+   82  vi count
+   83  vi count.txt
+   84  cat count.txt
+   85  history > cmds.log

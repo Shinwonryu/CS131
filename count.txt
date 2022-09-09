@@ -1,0 +1,2 @@
+The following numbers represent the number of lines, word count, byte and characters count for all unverified reviews: 3105519 550169437 3238700628
+The following numbers represent the number of lines, word count, byte and characters count for all verified reviews: 229347 44403448 262431531
