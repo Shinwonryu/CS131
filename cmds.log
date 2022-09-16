@@ -58,33 +58,620 @@
    58  egrep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
    59  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
    60  mkdir "folder 1
-
-
-mkdir "folder 1"
-
-k
-   61  mkdir "folder1"
-   62  ls > counts.txt
-   63   grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
-   64   grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc
-   65  cat counts.txt 
-   66  cat folder1/
+   61  mkdir "folder 1"
+   62  k
+   63  mkdir "folder1"
+   64  ls > counts.txt
+   65   grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   66   grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc
    67  cat counts.txt 
-   68  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
-   69  ls > counts.txt
-   70  grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   68  cat folder1/
+   69  cat counts.txt 
+   70  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
    71  ls > counts.txt
-   72  cat counts.txt
-   73  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+   72  grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   73  ls > counts.txt
    74  cat counts.txt
-   75  grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+   75  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
    76  cat counts.txt
-   77  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+   77  grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
    78  cat counts.txt
-   79  grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc > counting.txt
-   80  cat c* > count.txt
-   81  cat count.txt
-   82  vi count
-   83  vi count.txt
-   84  cat count.txt
-   85  history > cmds.log
+   79  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+   80  cat counts.txt
+   81  grep -P '\tN\t' amazon_reviews_us_Books_v1_02.tsv | wc > counting.txt
+   82  cat c* > count.txt
+   83  cat count.txt
+   84  vi count
+   85  vi count.txt
+   86  cat count.txt
+   87  history > cmds.log
+   88  git init
+   89  git status
+   90  git add count.txt
+   91  git add cmds.log
+   92  git status
+   93  git commit -m "My submission for WKST 2"
+   94  git config --global user.name "Jeremiah"
+   95  git commit -m "My submission for WKST 2"
+   96  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+   97  git branch -M main
+   98  git push -u origin main
+   99  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  100  git branch -M main
+  101  git push -u origin main
+  102  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  103  git branch -M main
+  104  git push -u origin main
+  105  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  106  git branch -M main
+  107  git push -u origin main
+  108  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  109  git branch -M main
+  110  git push -u origin main
+  111  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  112  git branch -M main
+  113  git push -u origin main
+  114  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  115  git branch -M main
+  116  git push -u origin main
+  117  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  118  git branch -M main
+  119  git push -u origin main
+  120  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  121  git branch -M main
+  122  git push -u origin main
+  123  echo "# Worksheet-2" >> README.md
+  124  git init
+  125  git add README.md
+  126  git commit -m "first commit"
+  127  git branch -M main
+  128  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  129  git push -u origin main
+  130  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  131  git branch -M main
+  132  git push -u origin main
+  133  git status
+  134  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  135  git branch -M main
+  136  git push -u origin main
+  137  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  138  git branch -M main
+  139  git push -u origin main
+  140  git remote add origin https://github.com/Shinwonryu/Worksheet-2.git
+  141  git branch -M main
+  142  git push -u origin main
+  143  git clone https://github.com/Shinwonryu/Worksheet-2.git
+  144  git clone https://github.com/Shinwonryu/Worksheet-2
+  145  git clone https://github.com/Shinwonryu/Worksheet-2.git
+  146  start
+  147  cat a1.txt
+  148  script a1.txt
+  149  cat a1.txt
+  150  mkdir A1
+  151  cd A1
+  152  script a1.txt
+  153  pwd
+  154  /home/jeremiah/A1
+  155  sudo cat /etc/passwd
+  156  id jeremiah@sjsu_admin
+  157  id jeremiah
+  158  mkdr /A1/Temp
+  159  mkdir /A1/Temp
+  160  mkdir temp
+  161  chmod go= temp
+  162  cd temp
+  163  cd A1
+  164  cd a1
+  165  pwd
+  166  chmod g-rx,o+rx temp
+  167  cd
+  168  cd a1
+  169  cd A1
+  170  chmod g-rx,o+rx temp
+  171  cd temp
+  172  cd
+  173  cd A1
+  174  chmod -rwx temp
+  175  cd temp
+  176  bash: cd: temp: Permission denied
+  177  ls temp
+  178  ls -i temp
+  179  mkdir temp2
+  180  mv temp2 temp3
+  181  cp temp2 temp3
+  182  cp temp temp2
+  183  ls
+  184  ls directory /proc/
+  185  head meminfo
+  186  head 1229    150     220     299     3526    359018  515    770 
+  187  head meminfo
+  188  head /proc/meminfo
+  189  head /proc/cpuinfo
+  190  pwd
+  191  /home/test/A1/downloaded_hashtags_extend.csv
+  192  chmod +rwx temp2
+  193  chmod +rwx A1
+  194  chmod +rwx temp
+  195   /home/test/A1/downloaded_hashtags_extend.csv
+  196  /home/test/A1/downloaded_hashtags_extend.csv
+  197  cp /home/test/A1/downloaded_hashtags_extend.csv .
+  198  /home/test/A1/downloaded_hashtags_extend.csv
+  199  head 
+  200  /home/jeremiah/A1
+  201  [jeremiah@sjsu A1]$ /home/jeremiah/A1
+  202  bash: /home/jeremiah/A1: Is a directory
+  203  [jeremiah@sjsu A1]$ sudo cat /etc/passwd
+  204  We trust you have received the usual lecture from the local System
+  205  Administrator. It usually boils down to these three things:
+  206      #1) Respect the privacy of others.
+  207      #2) Think before you type.
+  208      #3) With great power comes great responsibility.
+  209  [sudo] password for jeremiah:
+  210  jeremiah is not in the sudoers file.  This incident will be reported.
+  211  [jeremiah@sjsu A1]$ id j
+  212  jeremiah  jerry     jessie    jose      julissa
+  213  [jeremiah@sjsu A1]$ id j
+  214  jeremiah  jerry     jessie    jose      julissa
+  215  [jeremiah@sjsu A1]$ id jeremiah@sjsu_admin
+  216  id: ‘jeremiah@sjsu_admin’: no such user
+  217  [jeremiah@sjsu A1]$ id jeremiah
+  218  uid=1029(jeremiah) gid=1029(jeremiah) groups=1029(jeremiah)
+  219  [jeremiah@sjsu A1]$ mkdr /A1/Temp
+  220  bash: mkdr: command not found
+  221  [jeremiah@sjsu A1]$ mkdir /A1/Temp
+  222  mkdir: cannot create directory ‘/A1/Temp’: No such file or directory
+  223  [jeremiah@sjsu A1]$ mkdir temp
+  224  [jeremiah@sjsu A1]$ chmod go= temp
+  225  [jeremiah@sjsu A1]$ cd temp
+  226  [jeremiah@sjsu temp]$ cd A1
+  227  bash: cd: A1: No such file or directory
+  228  [jeremiah@sjsu temp]$ cd a1
+  229  bash: cd: a1: No such file or directory
+  230  [jeremiah@sjsu temp]$ pwd
+  231  /home/jeremiah/A1/temp
+  232  [jeremiah@sjsu temp]$ chmod g-rx,o+rx temp
+  233  chmod: cannot access 'temp': No such file or directory
+  234  [jeremiah@sjsu temp]$ cd
+  235  [jeremiah@sjsu ~]$ cd a1
+  236  bash: cd: a1: No such file or directory
+  237  [jeremiah@sjsu ~]$ cd A1
+  238  [jeremiah@sjsu A1]$ chmod g-rx,o+rx temp
+  239  [jeremiah@sjsu A1]$ cd temp
+  240  [jeremiah@sjsu temp]$ cd
+  241  [jeremiah@sjsu ~]$ cd A1
+  242  [jeremiah@sjsu A1]$ chmod -rwx temp
+  243  [jeremiah@sjsu A1]$ cd temp
+  244  bash: cd: temp: Permission denied
+  245  [jeremiah@sjsu A1]$ bash: cd: temp: Permission denied
+  246  bash: bash:: command not found
+  247  [jeremiah@sjsu A1]$ ls temp
+  248  ls: cannot open directory 'temp': Permission denied
+  249  [jeremiah@sjsu A1]$ ls -i temp
+  250  ls: cannot open directory 'temp': Permission denied
+  251  [jeremiah@sjsu A1]$ mkdir temp2
+  252  [jeremiah@sjsu A1]$ mv temp2 temp3
+  253  [jeremiah@sjsu A1]$ cp temp2 temp3
+  254  cp: cannot stat 'temp2': No such file or directory
+  255  [jeremiah@sjsu A1]$ cp temp temp2
+  256  cp: -r not specified; omitting directory 'temp'
+  257  [jeremiah@sjsu A1]$ ls
+  258  a1.txt  temp  temp3
+  259  [jeremiah@sjsu A1]$ ls
+  260  a1.txt  temp  temp3
+  261  [jeremiah@sjsu A1]$ ls directory /proc/
+  262  ls: cannot access 'directory': No such file or directory
+  263  /proc/:
+  264  1       1263    1536    224673  310283  354596  368    54895  800
+  265  10      1265    1537    224860  310284  354618  37     549    801
+  266  100     1266    1538    225198  311     354643  370    55     803
+  267  1001    1267    1539    225372  311247  354813  371    551    804
+  268  1002    1268    154     226     311802  354971  372    552    805
+  269  1003    1269    1540    2266    312     355     373    55286  806
+  270  1004    127     1541    2267    312775  355018  374    553    807
+  271  1005    1271    1542    2268    313     355025  376    554    809
+  272  1007    1272    1543    2269    313231  355110  37666  555    810
+  273  1008    1273    1544    227     313241  355111  377    557    8106
+  274  1009    1274    1545    2270    313927  355133  3770   558    811
+  275  101     1275    1546    2274    314     355145  3771   559    812
+  276  1010    1277    1547    2275    316     355280  3774   56     813
+  277  1011    1278    1548    228     316363  355308  378    560    815
+  278  1013    1279    1549    229     317     355351  3784   561    816
+  279  1014    128     155     23      318     355355  3787   563    817
+  280  1015    1280    1550    230     318375  355357  3789   564    818
+  281  1016    1281    1553    2318    318611  355363  379    565    819
+  282  1017    1283    1558    232     318647  355366  3792   566    82
+  283  1019    1284    1559    2327    319     355421  3793   567    821
+  284  101982  1285    156     233     319063  355423  38     569    822
+  285  102     1286    1560    234     319065  355449  380    570    823
+  286  1020    1287    1561    2347    319714  355459  38133  571    824
+  287  1021    1289    1562    2348    319996  355509  382    572    825
+  288  1022    1290    1564    2349    32      355553  3822   573    827
+  289  1023    1291    1565    235     320     355571  3823   5745   828
+  290  1025    1292    1566    2350    32077   355597  383    575    829
+  291  1026    1293    1567    2351    321113  355633  3831   576    83
+  292  1027    1295    1568    2352    321138  355653  38375  577    830
+  293  1028    1296    1569    2353    321372  355678  384    578    831
+  294  1029    1297    157     2355    321377  355679  3844   57888  833
+  295  103     1298    1570    2356    322     355725  385    579    834
+  296  1031    1299    1571    2357    322002  355735  3858   57900  835
+  297  1032    13      1572    2359    322162  355739  386    58     83572
+  298  1033    130     1573    236     322339  355821  3860   581    836
+  299  1034    1301    1577    2360    322739  355837  3863   582    837
+  300  1035    1302    1578    2362    323     355895  38655  583    839
+  301  1037    1303    1579    236345  323319  355924  388    584    84
+  302  1038    1304    158     2369    323531  355951  3889   585    840
+  303  1039    1305    16      238     324     355954  389    586    841
+  304  104     1307    160     239     325     355962  390    587    842
+  305  1040    1308    161     2394    325133  355963  3908   588    843
+  306  1041    1309    162     24      325179  355993  391    589    8443
+  307  1043    131     162330  240     325516  356     3912   58918  845
+  308  1044    1310    163     241     325625  356009  392    59     846
+  309  1045    1311    164     241279  326     356011  394    590    847
+  310  1046    1313    166     241998  326917  356012  395    591    848
+  311  1047    1314    166032  242     3270    356053  396    59123  849
+  312  1049    1315    167     242203  327041  356193  3963   593    85
+  313  1050    1316    168     242228  3273    356195  3964   594    851
+  314  1051    1317    1684    242374  3279    356196  3966   595    852
+  315  1052    1319    1685    2434    327946  356267  397    596    853
+  316  1053    132     1686    244     328     356348  3979   597    854
+  317  1055    1320    1687    244586  328392  356374  398    599    855
+  318  1056    1321    1689    245     328660  356378  3981   6      857
+  319  1057    1322    169     245247  328832  356432  3986   60     858
+  320  1058    1323    1690    245262  328848  356433  3987   600    859
+  321  1059    1325    1691    245270  328855  356434  3989   601    86
+  322  106     1326    1693    245316  329     356455  3999   602    860
+  323  1060    1327    1697    245320  329103  356463  4      603    861
+  324  1061    1328    17      245432  329148  356523  40     605    863
+  325  1062    1329    170     245497  329254  356543  400    6054   864
+  326  1063    133     170499  245498  329279  356550  4001   606    865
+  327  1064    1331    170526  245631  329363  356577  4006   607    866
+  328  1065    1332    1712    245839  329405  356604  4009   608    867
+  329  1066    1333    171915  246     329647  356644  401    609    868
+  330  1067    1334    172     247     329791  356656  402    61     869
+  331  1068    1335    173     2475    330     356657  4020   611    870
+  332  1069    1337    173143  248     330746  356701  403    612    871
+  333  107     1338    174     248372  330795  356706  4030   613    872
+  334  1070    1339    175     249070  331     356709  404    614    873
+  335  1071    134     175331  25      331127  356733  406    615    874
+  336  1073    1340    175409  250     331328  356736  407    617    875
+  337  1074    1341    175552  251     331487  356738  408    618    8757
+  338  1075    1343    1756    251559  331631  356739  409    619    876
+  339  1076    1344    175634  251867  332     356848  41     62     877
+  340  1077    1345    1757    252     332563  356923  410    620    878
+  341  1079    1346    175759  2523    332878  356942  4118   621    879
+  342  108     1347    1759    253     333278  356961  412    623    88
+  343  1080    1349    176     254     333423  356968  413    624    881
+  344  1081    1350    1762    254927  333693  357079  414    625    88115
+  345  1082    1351    1765    255993  333957  357080  41458  626    882
+  346  10828   1352    1772    256     333977  357135  41467  627    883
+  347  1083    1353    177660  256212  334     357158  415    629    884
+  348  1085    1355    178     256379  334088  357181  41501  630    885
+  349  1086    1356    179     256576  334235  357184  4152   631    887
+  350  1087    1357    18      256717  334328  357200  416    632    888
+  351  1088    1358    180     257     334511  357211  4166   633    889
+  352  1089    135812  181     257059  334527  357212  418    635    89
+  353  109     1359    181336  258     334809  357236  419    636    890
+  354  1091    136     182     258670  335     357238  41940  63662  891
+  355  1092    1361    182246  259     335436  357239  41942  637    893
+  356  1093    1362    182377  259350  335851  357264  42     638    894
+  357  1094    1363    182979  259964  335874  357280  420    639    895
+  358  1095    1364    183350  26      336     357286  4201   64     896
+  359  1097    1365    184     260     337     357301  421    641    897
+  360  1098    1367    1846    262     337554  357308  422    642    899
+  361  109811  1368    1847    263     337555  357312  42239  643    9
+  362  1099    1369    185     263390  337776  357332  424    644    90
+  363  11      137     185089  264     337983  357341  4243   645    900
+  364  110     1370    186     264496  338     357408  425    647    901
+  365  1100    1371    1864    265     338785  357418  426    648    902
+  366  1101    1373    1868    265451  338811  357419  4268   649    903
+  367  1103    1374    187     265835  338941  357439  427    65     905
+  368  1104    1375    1874    265838  339095  357475  4270   650    906
+  369  1105    1376    1877    266     339495  357501  428    651    907
+  370  1106    1377    188     266141  339789  357509  43     65267  908
+  371  1107    1379    1885    266620  339800  357511  430    653    909
+  372  110721  138     1888    268     339802  357540  43097  65305  91
+  373  1109    1380    19      2686    34      357555  431    654    911
+  374  1110    1381    190     2687    340     357559  432    655    912
+  375  1111    1382    1901    269     340054  357561  43257  656    913
+  376  1112    1383    1908    2699    340632  357567  43264  657    914
+  377  1113    1385    191     270     341     357568  433    659    915
+  378  1115    1386    1911    2704    341308  357600  4331   66     917
+  379  1116    1387    1915    271     341377  357605  434    660    918
+  380  1117    1388    1916    2714    342     357607  436    661    919
+  381  1118    1389    192     271834  342764  357614  437    662    92
+  382  1119    139     1925    2719    343     357617  438    663    920
+  383  112     1391    1928    272     343153  357632  439    665    9206
+  384  1121    1392    193     2725    343277  357638  44     666    921
+  385  1122    1393    1933    2726    343417  357639  440    667    923
+  386  1123    1394    1938    2727    343430  357678  442    668    924
+  387  1124    1395    1939    2728    343432  357689  443    6684   925
+  388  1125    1397    194     2729    343630  357724  444    66843  926
+  389  1127    1398    1942    2730    343853  357726  445    669    927
+  390  112717  1399    1943    2731    343875  357752  446    67     929
+  391  1128    14      1946    273104  344     357802  44698  671    930
+  392  1129    140     1952    2732    344062  357804  44700  6712   931
+  393  113     1400    1953    2733    344283  357810  448    672    932
+  394  1130    1401    1954    2734    344285  357811  44811  673    933
+  395  1131    1403    196     2735    344442  357847  44903  674    935
+  396  1133    1404    1962    2736    344559  357848  450    675    936
+  397  1134    1405    196215  2737    344603  357867  45032  676    937
+  398  1135    1406    197     2738    344685  357868  45038  677    938
+  399  1136    1407    198     2739    344707  357875  45062  678    939
+  400  1137    1409    199     274     344763  357881  451    679    94
+  401  1139    1410    1990    2740    345229  357898  45176  68     941
+  402  114     1411    1992    2741    345604  357968  45177  680    942
+  403  1140    1412    1993    2742    346     357969  452    681    943
+  404  1141    1413    1995    2743    346231  357970  453    682    944
+  405  1142    1415    1997    2744    346256  357991  455    683    945
+  406  1143    1416    1998    2745    346294  357993  456    684    947
+  407  1145    1417    1999    2746    3464    358     45636  685    948
+  408  1146    1418    2       2747    3465    358037  457    686    949
+  409  1147    1419    20      2748    346518  358046  45710  687    95
+  410  11472   142     200     2749    346575  358050  458    6882   950
+  411  1148    1421    2002    275     346649  358052  459    689    951
+  412  1149    1422    2004    2750    346765  358093  45982  690    953
+  413  115     1423    2006    2751    346858  358114  46     691    954
+  414  1151    1424    2007    2752    346988  358120  46089  692    955
+  415  1152    1425    2010    2753    347     358145  46098  693    956
+  416  1153    1427    2011    2754    347024  358147  461    695    957
+  417  1154    1428    2015    2758    347131  358152  46181  696    959
+  418  1155    1429    201512  2759    347197  358153  462    697    96
+  419  1156    143     201574  276     347247  358168  46260  698    960
+  420  1157    1430    201613  2760    347483  358169  463    699    961
+  421  1158    1431    201645  2761    347597  358173  46327  70     96189
+  422  1159    1433    201654  2762    347645  358175  464    701    962
+  423  116     1434    2017    2764    3477    358181  465    702    963
+  424  1160    1435    201864  2765    347701  358182  46682  703    965
+  425  1161    1436    201870  2766    347772  358216  46699  704    966
+  426  1163    1437    202     2767    347997  358218  467    705    967
+  427  1164    1438    2020    2768    348     358264  46712  707    968
+  428  1165    1439    2024    2769    348035  358274  46713  708    969
+  429  1166    144     202543  277     348560  358275  468    709    97
+  430  1167    1440    203     2770    348672  358305  46877  71     970
+  431  1169    1441    2031    2772    348868  358308  46878  710    971
+  432  1170    1442    2033    2773    348959  358313  469    711    972
+  433  1171    1443    2035    2774    349     358316  46955  713    973
+  434  1172    1445    2036    2776    3490    358317  46990  714    974
+  435  1173    1446    2037    2777    349030  358351  46993  715    975
+  436  1175    1447    2039    2779    349142  358361  47     716    977
+  437  1176    1448    203971  278     349608  358398  470    7161   978
+  438  1177    1449    204     278404  349612  358399  471    717    979
+  439  1178    145     2041    2789    349614  358423  473    719    98
+  440  1179    1451    2042    279606  349620  358429  474    72     980
+  441  118     1452    2043    279635  349621  358430  475    720    981
+  442  1181    145229  2045    2799    349982  358432  476    721    983
+  443  1182    1453    2047    28      35      358459  477    722    984
+  444  1183    1454    2048    280     350     358472  4772   723    985
+  445  1184    1455    2049    2801    350028  358494  479    725    986
+  446  1185    1457    205     2802    350078  358497  48     726    987
+  447  1187    1458    206     2804    350280  358516  480    7266   989
+  448  1188    1459    206180  280675  350318  358517  481    727    990
+  449  1189    146     206292  2808    350320  358523  482    728    991
+  450  119     1460    208     281     350527  358525  483    729    992
+  451  1190    1461    209     281065  350529  358529  485    73     993
+  452  1191    1463    209666  282     350627  358531  486    731    995
+  453  1193    1464    210     282876  350628  358537  487    732    996
+  454  1194    1465    211     2829    350682  358538  488    733    997
+  455  1195    1466    211144  283     350684  358539  489    734    998
+  456  11952   1467    211722  2831    350756  358612  49     735    999
+  457  1196    1469    212     283185  350776  358613  49037  737    99943
+  458  1197    1470    2122    2832    350785  358626  491    738    buddyinfo
+  459  1199    1471    2123    2833    350838  358630  49171  739    bus
+  460  12      1472    2125    2834    350881  358632  492    74     cgroups
+  461  120     1473    2126    2838    350909  358662  493    740    cmdline
+  462  1200    1475    214     2839    350912  358691  494    741    consoles
+  463  1201    1476    215     284     351070  358693  495    743    cpuinfo
+  464  1202    1477    2150    2849    351291  358727  49680  744    crypto
+  465  120271  1478    2152    2855    351373  358764  497    745    devices
+  466  1203    1479    2153    285838  351385  358770  49747  746    device-tree
+  467  1205    148     2155    2859    351428  358771  49752  747    diskstats
+  468  1206    1481    216     286     351524  358779  498    749    dma
+  469  1207    1482    2161    287     351530  358818  49860  750    driver
+  470  1208    1483    2162    2872    351609  358832  499    751    execdomains
+  471  1209    1484    2163    287424  351677  358833  50     752    fb
+  472  121     1485    2164    288     351710  358869  500    753    filesystems
+  473  1211    1487    2166    288210  351733  358883  501    7532   fs
+  474  1212    1488    217     289     351755  358884  50107  755    interrupts
+  475  1213    1489    2172    29      351909  358891  50265  756    iomem
+  476  1214    149     2174    290     351975  358892  503    757    ioports
+  477  1215    1490    2178    2914    351999  358893  504    758    irq
+  478  1217    1491    2179    291889  352     358914  505    759    kallsyms
+  479  1218    1493    218     292     3521    358925  506    76     kcore
+  480  1219    1494    2180    293     352208  358927  5062   761    keys
+  481  122     1495    2181    293041  352491  358986  507    762    key-users
+  482  1220    1496    2182    293968  352503  358992  509    763    kmsg
+  483  1221    149691  2183    294     352509  358993  510    764    kpagecgroup
+  484  1223    1497    2184    294704  352548  358994  511    765    kpagecount
+  485  1224    149790  2185    295     352557  358997  51113  767    kpageflags
+  486  1225    149887  2186    296     352580  359     5115   768    loadavg
+  487  1226    1499    2189    296441  352581  359011  512    769    locks
+  488  1227    15      22      298     352582  359017  513    77     mdstat
+  489  1229    150     220     299     3526    359018  515    770    meminfo
+  490  1230    1500    2200    3       352625  359023  516    771    misc
+  491  1231    1501    2202    30      352668  359034  517    772    modules
+  492  1232    1502    2204    300     352669  359056  518    773    mounts
+  493  1233    150251  2206    300482  352670  359057  519    774    net
+  494  1235    1503    2208    301     352672  359070  52     775    pagetypeinfo
+  495  1236    1505    220926  301258  352673  359071  521    776    partitions
+  496  1237    150524  221     302     352782  359072  5212   777    powerpc
+  497  1238    1506    2210    302298  352803  359075  522    778    ppc64
+  498  1239    1507    2211    302372  352829  359122  523    779    rtas
+  499  123903  1508    221257  302794  352961  359124  524    7794   sched_debug
+  500  124     1509    221278  304     352963  359131  525    78     schedstat
+  501  1241    151     221333  304002  352964  359132  527    780    scsi
+  502  1242    1511    2214    304010  353     359133  528    781    self
+  503  1243    1512    221629  304254  353088  359134  529    782    slabinfo
+  504  1244    1513    221698  304315  353126  359135  53     783    softirqs
+  505  1245    1514    222     305     353170  359138  530    785    stat
+  506  1247    1515    2222    305774  353179  359140  531    786    swaps
+  507  1248    1517    2223    306     353227  359167  533    7868   sys
+  508  1249    1518    2224    306940  354     359169  534    787    sysrq-trigger
+  509  125     1519    2226    307     354238  359171  535    788    sysvipc
+  510  1250    152     2227    308     354240  359198  536    7880   thread-self
+  511  1251    1520    2228    308914  354246  359199  53684  789    timer_list
+  512  1253    1521    2229    308958  354248  359200  537    79     tty
+  513  1254    1523    223     309521  354287  359201  539    791    uptime
+  514  1255    1524    2231    309625  354326  359202  54     792    version
+  515  1256    1525    2235    309923  354349  36      540    793    vmallocinfo
+  516  1257    1526    2237    31      354359  360     541    794    vmstat
+  517  1258    1527    223996  310     354454  361     542    7940   zoneinfo
+  518  125853  1529    224     310153  354473  362     543    795
+  519  1259    1530    2240    310165  354475  364     5433   797
+  520  126     1531    224264  310197  354476  365     545    798
+  521  1260    1532    2243    310246  354520  366     546    799
+  522  1261    1533    224319  310253  354522  367     547    8
+  523  1262    1535    224481  310282  354571  3676    548    80
+  524  [jeremiah@sjsu A1]$ head meminfo
+  525  head: cannot open 'meminfo' for reading: No such file or directory
+  526  [jeremiah@sjsu A1]$ head 1229    150     220     299     3526    359018  515    770
+  527  head: cannot open '1229' for reading: No such file or directory
+  528  head: cannot open '150' for reading: No such file or directory
+  529  head: cannot open '220' for reading: No such file or directory
+  530  head: cannot open '299' for reading: No such file or directory
+  531  head: cannot open '3526' for reading: No such file or directory
+  532  head: cannot open '359018' for reading: No such file or directory
+  533  head: cannot open '515' for reading: No such file or directory
+  534  head: cannot open '770' for reading: No such file or directory
+  535  [jeremiah@sjsu A1]$ head meminfo
+  536  head: cannot open 'meminfo' for reading: No such file or directory
+  537  [jeremiah@sjsu A1]$ head /proc/meminfo
+  538  MemTotal:       73080640 kB
+  539  MemFree:         4032960 kB
+  540  MemAvailable:   60759424 kB
+  541  Buffers:            4224 kB
+  542  Cached:         58069312 kB
+  543  SwapCached:         9152 kB
+  544  Active:         56315200 kB
+  545  Inactive:        2227840 kB
+  546  Active(anon):     248832 kB
+  547  Inactive(anon):   789760 kB
+  548  [jeremiah@sjsu A1]$ head /proc/cpuinfo
+  549  processor       : 0
+  550  cpu             : POWER8 (architected), altivec supported
+  551  clock           : 3525.000000MHz
+  552  revision        : 2.1 (pvr 004b 0201)
+  553  processor       : 1
+  554  cpu             : POWER8 (architected), altivec supported
+  555  clock           : 3525.000000MHz
+  556  revision        : 2.1 (pvr 004b 0201)
+  557  [jeremiah@sjsu A1]$ pwd
+  558  /home/jeremiah/A1
+  559  [jeremiah@sjsu A1]$ /home/test/A1/downloaded_hashtags_extend.csv
+  560  bash: /home/test/A1/downloaded_hashtags_extend.csv: Permission denied
+  561  [jeremiah@sjsu A1]$ chmod +rwx temp2
+  562  chmod: cannot access 'temp2': No such file or directory
+  563  [jeremiah@sjsu A1]$ chmod +rwx A1
+  564  chmod: cannot access 'A1': No such file or directory
+  565  [jeremiah@sjsu A1]$ chmod +rwx temp
+  566  [jeremiah@sjsu A1]$  /home/test/A1/downloaded_hashtags_extend.csv
+  567  bash: /home/test/A1/downloaded_hashtags_extend.csv: Permission denied
+  568  [jeremiah@sjsu A1]$ /home/test/A1/downloaded_hashtags_extend.csv
+  569  bash: /home/test/A1/downloaded_hashtags_extend.csv: Permission denied
+  570  [jeremiah@sjsu A1]$ cp /home/test/A1/downloaded_hashtags_extend.csv .
+  571  [jeremiah@sjsu A1]$ /home/test/A1/downloaded_hashtags_extend.csv
+  572  bash: /home/test/A1/downloaded_hashtags_extend.csv: Permission denied
+  573  [jeremiah@sjsu A1]$ head
+  574  a1.txt                          temp/
+  575  downloaded_hashtags_extend.csv  temp3/
+  576  [jeremiah@sjsu A1]$ head
+  577  /home/test/A1/downloaded_hashtags_extend.csv
+  578  cd A1
+  579  cd
+  580  cd A1
+  581  bash: /home/test/A1/downloaded_hashtags_extend.csv
+  582  /home/test/A1/downloaded_hashtags_extend.csv
+  583  cp /home/test/A1/downloaded_hashtags_extend.csv .
+  584  cp /home/test/A1/downloaded_hashtags_extend.csv
+  585  cp /home/test/A1/downloaded_hashtags_extend.csv A1
+  586  head downloaded_hashtags_extend.csv 
+  587  ls -ih
+  588  ls ih downloaded_hashtags_extend.csv 
+  589  ls downloaded_hashtags_extend.csv 
+  590  ls -ih downloaded_hashtags_extend.csv 
+  591  du -sh downloaded_hashtags_extend.csv 
+  592  head downloaded_hashtags_extend.csv 
+  593  grep "great" wc
+  594  grep -i 'great' downloaded_hashtags_extend.csv 
+  595  grep -i 'great' downloaded_hashtags_extend.csv | wc
+  596  file downloaded_hashtags_extend.csv 
+  597  iconv -f utf-8 -t ascii
+  598  konwert utf8-ascii
+  599  convert utf8-ascii
+  600  iconv -f utf-8 -t ascii
+  601  iconv -f utf-8 -t ascii//TRANSLIT
+  602  iconv -f utf-8 -t ascii downloaded_hashtags_extend.csv 
+  603  grep '150' downloaded_hashtags_extend.csv |wc
+  604  vi a1.txt 
+  605  less a1.txt 
+  606  touch a1.txt 
+  607  git add a1.txt 
+  608  git commit
+  609  git commit -m "assignment 1"
+  610  git add a1.txt 
+  611  git commit a1.txt -m "assignment 1"
+  612  git remote add origin https://github.com/Shinwonryu/Assignment-1.git
+  613  git branch -M main
+  614  git push -u origin main
+  615  git remote add origin https://github.com/Shinwonryu/Assignment-1.git
+  616  git branch -M main
+  617  git push -u origin main
+  618  sort amazon_reviews_us_Books_v1_02.tsv
+  619  head amazon_reviews_us_Books_v1_02.tsv
+  620  history > cmds.log
+  621  script ws3.txt
+  622  head amazon_reviews_us_Books_v1_02.tsv
+  623  cut -b 8-16 amazon_reviews_us_Books_v1_02.tsv 
+  624  head amazon_reviews_us_Books_v1_02.tsv
+  625  cut -b 4-8 amazon_reviews_us_Books_v1_02.tsv 
+  626  head amazon_reviews_us_Books_v1_02.tsv
+  627  cut -b 4-8 amazon_reviews_us_Books_v1_02.tsv 
+  628  head amazon_reviews_us_Books_v1_02.tsv
+  629  cut -c 3-10 amazon_reviews_us_Books_v1_02.tsv
+  630  head amazon_reviews_us_Books_v1_02.tsv
+  631  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv
+  632  sort amazon_reviews_us_Books_v1_02.tsv
+  633  sort uniq -c cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv
+  634  sort uniq -c cut 3-11 amazon_reviews_us_Books_v1_02.tsv
+  635  sort uniq  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv
+  636  sort cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv
+  637  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv
+  638  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv
+  639  head cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv
+  640   amazon_reviews_us_Books_v1_02.tsv
+  641  cut -c 3-11 | head amazon_reviews_us_Books_v1_02.tsv
+  642  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | head
+  643  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | head | sort
+  644  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | head | sort | uniq -c
+  645  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | head | uniq -c | sort
+  646  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | head | sort | uniq
+  647  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | head | sort | uniq -d
+  648  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | head | sort | uniq -c
+  649  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c
+  650   sort amazon_reviews_us_Books_v1_02.tsv  | uniq -c
+  651   sort amazon_reviews_us_Books_v1_02.tsv  | uniq -c | head
+  652  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | head | sort | uniq -c
+  653  cut -c 12-25 amazon_reviews_us_Books_v1_02.tsv | head | sort | uniq -c
+  654  head -n 2 amazon_reviews_us_Books_v1_02.tsv
+  655  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | head | sort | uniq -c
+  656  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | head | sort | uniq -c |sort
+  657  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | head
+  658  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort | head
+  659  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | head
+  660  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort-nr | uniq -c | head
+  661  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c | head
+  662  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort -nr-k1 | uniq -c | head
+  663  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort -nr -k1 | uniq -c | head
+  664  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort -nr -k1 | uniq -c | tail -50
+  665   cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | head
+  666  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | tail -10
+  667  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort -nr -k1 | uniq -c | head
+  668  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k1 | head
+  669  head -n 2 amazon_reviews_us_Books_v1_02.tsv
+  670   21922         50122160
+  671     9964         50732546
+  672     2664         52615377
+  673  cut -c 26-34 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k1 | head
+  674   cut -c 26-34 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k1 | head 1196         04393580
+  675  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k1 | head
+  676  cut -c 26-34 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k1 | head
+  677  history > cmds.log
