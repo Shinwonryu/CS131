@@ -675,3 +675,122 @@
   675  cut -c 3-11 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k1 | head
   676  cut -c 26-34 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k1 | head
   677  history > cmds.log
+  678  vi ws3.txt 
+  679  more ws3.txt 
+  680  script ws3.txt
+  681  o
+  682  O
+  683  cas ws3.txt 
+  684  cat ws3.txt 
+  685  2R0;136;0c2R0;136;0c2R0;136;0c
+  686  vi ws3.txt 
+  687  touch ws3.txt 
+  688  touch cmds.log 
+  689  git add ws3.txt 
+  690  git add cmds.log 
+  691  git commit -m "worksheet 3"
+  692  git remote add origin https://github.com/Shinwonryu/Worksheet3.git
+  693  git branch -M main
+  694  git push -u origin main
+  695  head amazon_reviews_us_Books_v1_02.tsv 1
+  696  head amazon_reviews_us_Books_v1_02.tsv
+  697  script ws4.txt
+  698  alias l = "ls -latr"
+  699  vi ~/.bashrc
+  700  mkdir CUSTOMERS
+  701  mkdir PRODUCTS
+  702  head amazon_reviews_us_Books_v1_02.tsv 10
+  703  cat > CUSTOMERS/12076615.txt
+  704  script ws4.txt
+  705  vi ~/.bashrc
+  706  mkdir CUSTOMERS
+  707  mkdir PRODUCTS
+  708  cd CUSTOMERS/
+  709  cd
+  710  head amazon_reviews_us_Books_v1_02.tsv
+  711  touch 12076615.txt
+  712  unlink 12076615.txt 
+  713  cd CUSTOMERS/
+  714  touch 12076615.txt
+  715  cd
+  716  grep "12076615" amazon_reviews_us_Books_v1_02.tsv
+  717  grep "12076615" amazon_reviews_us_Books_v1_02.tsv | cut -c 80-90
+  718  grep "12076615" amazon_reviews_us_Books_v1_02.tsv | cut -c 95-96
+  719  grep "12076615" amazon_reviews_us_Books_v1_02.tsv | cut -c 98-99
+  720  grep "12076615" amazon_reviews_us_Books_v1_02.tsv | cut -c 99
+  721  grep "12076615" amazon_reviews_us_Books_v1_02.tsv | cut -c 99 > CUSTOMERS/12076615.txt 
+  722  cat CUSTOMERS/12076615.txt 
+  723  touch 12703090.txttouch 12703090.txt
+  724  unlink 12703090.txt 
+  725  cd CUSTOMERS/
+  726  touch touch 12703090.txt
+  727  grep "12076615" amazon_reviews_us_Books_v1_02.tsv | cut -c 99 > CUSTOMERS/12706615.txt
+  728  cd
+  729  grep "12076615" amazon_reviews_us_Books_v1_02.tsv | cut -c 99 > CUSTOMERS/12706615.txt
+  730  cat CUSTOMERS/12076615.txt 
+  731  grep "12706615" amazon_reviews_us_Books_v1_02.tsv | cut -c 99 > CUSTOMERS/12706615.txt
+  732  cat CUSTOMERS/12706615.txt
+  733  cat CUSTOMERS/12076615.txt 
+  734  cat CUSTOMERS/12076615.txt
+  735  cat CUSTOMERS/12706615.txt
+  736  grep "12706615" amazon_reviews_us_Books_v1_02.tsv
+  737  unlink 12706615.txt
+  738  touch CUSTOMERS/12703090.txt
+  739  grep "12703090" amazon_reviews_us_Books_v1_02.tsv
+  740  grep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 99 > CUSTOMERS/12706615.txt
+  741  cat CUSTOMERS/12703090.txt
+  742  cd CUSTOMERS/
+  743  touch 12703090.txt
+  744  cd
+  745  grep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 99 > CUSTOMERS/12706615.txt
+  746  cd
+  747  cd CUSTOMERS/
+  748  cat 12703090.txt
+  749  ]
+  750   grep "12076615" amazon_reviews_us_Books_v1_02.tsv | cut -c 99 > CUSTOMERS/12076615.txt
+  751  cat CUSTOMERS/12076615.txt
+  752  cd
+  753  cat CUSTOMERS/12076615.txt
+  754  cat CUSTOMERS/12703090.txt 
+  755  grep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 99 > CUSTOMERS/12703090.txt
+  756  cat CUSTOMERS/12703090.txt 
+  757  grep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 99
+  758  grep "12703090" amazon_reviews_us_Books_v1_02.tsv
+  759  grep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 80-90
+  760  grep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 99-100
+  761  grep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 99-110
+  762  grep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 100
+  763  grep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 100 > CUSTOMERS/12703090.txt
+  764  cat CUSTOMERS/12703090.txt 
+  765  cd
+  766  cd CUSTOMERS/
+  767  touch 50732546.txt
+  768  cd
+  769   
+  770  cat CUSTOMERS/50732546.txt 
+  771  grep "50732546" amazon_reviews_us_Books_v1_02.tsv
+  772  head amazon_reviews_us_Books_v1_02.tsv
+  773  grep "0385730586" amazon_reviews_us_Books_v1_02.tsv
+  774  cat CUSTOMERS/12703090.txt 
+  775  grep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 100 > CUSTOMERS/12703090.txtgrep "12703090" amazon_reviews_us_Books_v1_02.tsv | cut -c 100 > CUSTOMERS/12703090.txt
+  776  head amazon_reviews_us_Books_v1_02.tsv
+  777  grep "53000124" amazon_reviews_us_Books_v1_02.tsv
+  778  grep "53000124" amazon_reviews_us_Books_v1_02.tsv | cut -c 99
+  779  grep "53000124" amazon_reviews_us_Books_v1_02.tsv | cut -f 9
+  780  less ws4.txt
+  781  less worksheet4.txt
+  782  script worksheet4.txt
+  783  git add worksheet4.txt 
+  784  git add CUSTOMERS/12076615.txt
+  785  git add CUSTOMERS/51964897.txt
+  786  git add CUSTOMERS/12257412.txt
+  787  PRODUCTS/0811828964.txt
+  788  git add PRODUCTS/0811828964.txt
+  789  git add PRODUCTS/0262181533.txt
+  790  git add [jeremiah@sjsu ~]$
+  791  git add PRODUCTS/0262181533.txt 
+  792  touch README.txt
+  793  echo 'The mean helpfulness values should differ significantly because some people give bad reviews' >> README.txt
+  794  cat README.txt
+  795  git add README.txt 
+  796  history > cmds.log
